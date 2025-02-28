@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://github.com/yk-inso/Stryker-Hub/blob/902b1b4f9f72988ba42d5baf0e22d6c142de38eb/StrykerHub.lua')))()
-local Window = OrionLib:MakeWindow({Name = "Stryker Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest" , IntroText = "Welcome to Stryker Hub"})
+local Window = OrionLib:MakeWindow({Name = "Stryker Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "Stryker-Hub-main" , IntroText = "Welcome to Stryker Hub"})
 
 OrionLib:MakeNotification({
 	Name = "Alpha 1",
@@ -26,4 +26,3 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 
-OrionLib:Init()
