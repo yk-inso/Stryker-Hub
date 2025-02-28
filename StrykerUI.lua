@@ -1,3 +1,6 @@
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a5be656bbfdcb4337951e41466211aa0.lua"))()
+
+
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/jensonhirst/Orion/main/source')))()
 local DebugMode = true
 local Window = OrionLib:MakeWindow({Name = "Stryker Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest" , IntroText = "Welcome to Stryker Hub"})
