@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a5be656bbfdcb4337951e41466211aa0.lua"))()
+loadstring(game:HttpGet(("https://github.com/yk-inso/Stryker-Hub.git")))
 
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/jensonhirst/Orion/main/source')))()
