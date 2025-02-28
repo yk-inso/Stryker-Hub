@@ -1,4 +1,4 @@
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/jensonhirst/Orion/main/source')))()
+local OrionLib = loadstring(game:HttpGet(('https://github.com/yk-inso/Stryker-Hub/blob/902b1b4f9f72988ba42d5baf0e22d6c142de38eb/StrykerHub.lua')))()
 local Window = OrionLib:MakeWindow({Name = "Stryker Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest" , IntroText = "Welcome to Stryker Hub"})
 
 OrionLib:MakeNotification({
