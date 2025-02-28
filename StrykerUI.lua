@@ -1,4 +1,4 @@
-loadstring(game:HttpGet(("https://github.com/yk-inso/Stryker-Hub.git")))
+loadstring(game:HttpGetAsync(("https://github.com/yk-inso/Stryker-Hub.git")))
 
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/jensonhirst/Orion/main/source')))()
